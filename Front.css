@@ -1,0 +1,250 @@
+/*css reset */
+*{
+margin: 0%;
+padding: 0%;
+}
+h2{
+color:blueviolet;
+font-size: 50px;
+font-family:'Arial Narrow', Arial, sans-serif;
+padding-bottom: 3%;
+}
+h1{
+color: black;
+font-size: 50px;
+font-family:'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+background-color: #7434d2;
+padding: 10px;
+border-radius: 20px;
+border-color: antiquewhite;
+color: antiquewhite;
+}
+
+nav{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 20%;
+}
+nav ul{
+display: flex;
+list-style-type: none;
+gap: 20px;
+align-items: center;
+padding-right: 20%;
+}
+
+h3{
+font-weight: bold;
+padding-top: 38px;
+}
+.banner{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+justify-items:center ;
+}
+.banner-text{
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+.client-logos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+img{
+   padding-bottom: 10px;
+}
+.things{
+   background-color: rgb(185, 184, 182);
+   display: flex;
+   color: grey;
+   padding: 20px;
+   text-align: left;
+   margin-left: 20px;
+   margin-right: 20px;
+   justify-content: center;
+}
+.other-things h2{
+   color: rgb(18, 16, 16);
+}
+.logos{
+display: flex;
+align-items: center;
+gap: 20px;
+padding-bottom: 30px;
+}
+.banner1{
+   align-items: center;
+   display: flex;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+
+}
+.parent-holder{
+   background-image: url(image0.jpeg);
+   height:300px ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: white;
+}
+.parent-holder h2{
+   color: white;
+}
+.clients-say-what{
+   background-image: url(guys...jpg);
+   height: 700px; 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.clients-text{
+   color: white;
+   padding-top: 10px;
+}
+.Textz{
+   color: white;
+   background-color: black;
+   padding-top: 20px;
+   padding-left:50px;
+   padding-right: 50px;
+   padding-bottom: 20px;
+width: 50%;
+}
+  .Textz p{
+color: white;
+  }
+.clients-text h2{
+   color: white;
+}
+.Blog-text{
+   color: #7434d2;
+   padding-bottom: 30px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.First-blog{
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.First-blog h6{
+color: grey;
+}
+.First-blog h5{
+padding-bottom: 10px;
+}
+.First-blog div{
+   color: #7434d2;
+}
+.First-blog img{
+   border-radius: 10px;
+}
+.Second-blog{
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.Second-blog h6{
+color: grey;
+}
+.Second-blog h5{
+padding-bottom: 10px;
+}
+.Second-blog div{
+   color: #7434d2;
+}
+.Second-blog img{
+   border-radius: 10px;
+}
+.Third-blog{
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.Third-blog h6{
+color: grey;
+}
+.Third-blog h5{
+padding-bottom: 10px;
+}
+.Third-blog div{
+   color: #7434d2;
+}
+.Third-blog img{
+   border-radius: 10px;
+}
+.Blogs{
+   display: flex;
+align-items: center;
+}
+.Technology-stack{
+background-image: url(Tech-stack.png);
+   height:600px ;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   color: white;
+   padding-top: 20px;
+}
+.logos{
+
+   display: flex;
+align-items: center;
+gap: 30px;
+padding-bottom: 30px;
+}
+.logo-container{
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.logo-container h3{
+   padding-bottom: 10px;
+}
+.Ideas{
+   background-color: #7647bc;
+height:300px ;
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+}
+.Ideas h2{
+   color:white;
+padding-bottom: 20px;
+}
+.button2{
+background-color: antiquewhite;
+padding: 10px;
+border-radius: 20px;
+border-color: #7434d2;
+color: #7434d2;
+}
+.Ideas p{
+   color: white;
+}
+.close-to-the-end{
+   padding-top:50px;
+   padding-left:50px;
+}
+.close-to-the-end h2{
+   color: black;
+}
